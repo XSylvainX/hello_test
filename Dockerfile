@@ -1,3 +1,3 @@
-FROM tomcat:9.0.71-jre11-alpine
+FROM tomcat:8.5.85-jre8-alpine
 MAINTAINER "Sylvain"
 COPY webapp/target/ /usr/local/tomcat/webapps/
